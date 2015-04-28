@@ -1,8 +1,29 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="android:Theme.Holo.Light">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
+    </style>
+
+    <style name="StyleTheme" parent="@style/AppTheme">
+        <item name="bottomSheetStyle">@style/BottomSheet.StyleDialog</item>
+    </style>
+
+    <style name="BottomSheet.StyleDialog" parent="BottomSheet.Dialog">
+        <item name="android:backgroundDimAmount">0.5</item>
+        <item name="android:windowAnimationStyle">@style/BottomSheet.Animation</item>
+        <item name="android:textColorPrimary">#DDFFFFFF</item>
+        <item name="android:textColorSecondary">#8AFFFFFF</item>
+        <item name="android:textColorHint">#42FFFFFF</item>
+        <item name="bs_dialogBackground">@color/abc_search_url_text_normal</item>
+        <item name="bs_dividerColor">@color/abc_search_url_text_pressed</item>
+        <item name="bs_numColumns">4</item>
+        <item name="bs_listStyle">@style/BottomSheet.StyleList</item>
+    </style>
+
+    <style name="BottomSheet.StyleList" parent="BottomSheet.List.Dark">
+        <item name="android:listSelector">@drawable/list_selector</item>
+        <item name="android:layoutAnimation">@anim/bs_list_layout_fade_in</item>
     </style>
 
 </resources>
