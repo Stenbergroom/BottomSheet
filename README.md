@@ -83,7 +83,7 @@ Action items manipulate
 
 You can get a menu object from bottomsheet instance from 1.1.0, and change it as you want, exactly like you manipulating android menu or actionbar actionitems.
 Please be aware that if you change the menu after showing the bottomsheet, you must call invalidate(), or no changes would be applied and your app might crash.
-Please check example application for more info.
+Please check ```app/``` for more info.
 
 
 Style
