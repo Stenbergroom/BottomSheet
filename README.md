@@ -4,6 +4,15 @@ Example of Bottom Sheet implementation
 
 This library works on android 2.1+
 
+![Sample](https://github.com/Stenbergroom/BottomSheet/blob/master/demo/image1.png?raw=true)
+![Sample](https://github.com/Stenbergroom/BottomSheet/blob/master/demo/image2.png?raw=true)
+![Sample](https://github.com/Stenbergroom/BottomSheet/blob/master/demo/image3.png?raw=true)
+![Sample](https://github.com/Stenbergroom/BottomSheet/blob/master/demo/image4.png?raw=true)
+![Sample](https://github.com/Stenbergroom/BottomSheet/blob/master/demo/image5.png?raw=true)
+![Sample](https://github.com/Stenbergroom/BottomSheet/blob/master/demo/image6.png?raw=true)
+![Sample](https://github.com/Stenbergroom/BottomSheet/blob/master/demo/image7.png?raw=false)
+![Sample](https://github.com/Stenbergroom/BottomSheet/blob/master/demo/image8.png?raw=false)
+![Sample](https://github.com/Stenbergroom/BottomSheet/blob/master/demo/image9.png?raw=false)
 
 How to use this library
 =======
